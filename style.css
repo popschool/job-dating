@@ -47,4 +47,25 @@ table {
 	border-spacing: 0;
 }
 
-/* *****************************************/
+/* FOOTER *****************************************/
+@font-face {
+  font-family: Bond4F;
+  src:local("Bond4F"),
+      url("font/bond4f/OTF/Bond4F.otf");
+}
+
+.footer{
+  clear:both;
+  margin:2% 20%;
+}
+
+.imgdown{
+  float:left;
+}
+
+.pdown{
+  float: right;
+  text-align: left;
+  margin-top: 7px;
+  font-family: Bond4F;
+}
