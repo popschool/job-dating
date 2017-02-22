@@ -49,14 +49,14 @@ table {
 
 /* FOOTER *****************************************/
 @font-face {
-  font-family: Bond4F;
-  src:local("Bond4F"),
-      url("font/bond4f/OTF/Bond4F.otf");
+  font-family: Bond4F-UltraLight;
+  src: url("font/bond4f/OTF/Bond4F-UltraLight.otf");
 }
 
 .footer{
   clear:both;
   margin:2% 20%;
+  display: block;
 }
 
 .imgdown{
@@ -66,6 +66,9 @@ table {
 .pdown{
   float: right;
   text-align: left;
-  margin-top: 7px;
-  font-family: Bond4F;
+  font-family: Bond4F-UltraLight;
+  font-weight: lighter;
+  font-size:20px;
+  margin-top: 5px;
+
 }
