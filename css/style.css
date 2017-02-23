@@ -205,59 +205,133 @@ body{
 
  /* FOOTER *****************************************/
 
- .footer{
-   margin:2% ;
-   display: block;
+.footer{
+ margin:2% ;
+ display: block;
 
- }
- .lien_img{
- 	 text-decoration: none;
- }
- .imgdown{
- 	padding:0px 5px;
-	margin-left: 16px;
- }
-
- .pdown{
-   float: right;
-   text-align: left;
-   font-family: Bond4F-UltraLight;
-   font-weight: lighter;
-   font-size:20px;
-   margin-top: 10px;
-	 margin-right: 222px;
-
- }
-
- footer{
-	 background-color: #353535;
-	 color:white;
-	 text-align: center;
-	 padding:8px;
+}
+.lien_img{
 	 text-decoration: none;
-	 width: 100%;
- }
+}
+.imgdown{
+	padding:0px 5px;
+	margin-left: 16px;
+}
 
- footer a {
-	 color:white;
- }
+.pdown{
+ float: right;
+ text-align: left;
+ font-family: Bond4F-UltraLight;
+ font-weight: lighter;
+ font-size:20px;
+ margin-top: 10px;
+ margin-right: 222px;
 
- /* MEDIAQUERIES FOOTER *********************/
- @media screen and (max-width: 361px){
-   footer{
-		 width:100%;
-		 height: 10%;
-	 }
- }
+}
 
- @media screen and (min-width: 768px) and (max-width: 991px){
+footer{
+ background-color: #353535;
+ color:white;
+ text-align: center;
+ padding:8px;
+ text-decoration: none;
+ width: 100%;
+}
 
- }
+footer a {
+ color:white;
+}
 
- @media screen and (min-width: 992px) and (max-width: 1199px){
-
- }
-
- @media screen and (min-width: 1200px){
-
- }
+/* MEDIAQUERIES FOOTER *********************/
+@media screen and (min-width:737px) and (max-width:1024px){
+/* début top*/
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	.allimg{
+		margin: 0;
+		padding: 0
+	}
+	#poleemploi{
+		margin: 0;
+		height: 240px;
+	}
+	#popschool{
+		margin: 0;
+		height: 240px;
+	}
+	.text1{
+		padding-right: 0;
+		font-size: 70px;
+	}
+	.text2{
+		padding-right: 0;
+		font-size: 50px
+	}
+	.maj{
+		font-size: 90px
+	}
+	.bleu1{
+		font-size: 90px
+	}
+/* fin top*/
+/* bannière bleue*/
+	.intbann{
+		padding: 5px;
+		font-size: 25px
+	}
+/* fin bannière bleue*/
+/*partie gauche*/
+	.gauche{
+		margin-left: 50px;
+	}
+	.link{
+		margin:5px;
+		padding: 15px;
+	}
+	.phraselink1{
+		font-size: 20px;
+	}
+	.phraselink2{
+		font-size: 20px;
+	}
+	.address p{
+		font-size: 25px;
+	}
+	.img1{
+		margin: 0;
+		padding-top: 15px;
+		height: 30px;
+	}
+	.img2{
+		margin: 0;
+		padding-top: 15px;
+		height: 30px;
+	}
+/*fin partie gauche*/
+/* début partie droite*/
+	.inscription{
+		height: 385px
+	}
+	.textblue{
+		padding-top: 50px;
+		font-size: 30px;
+	}
+	.linkblue1{
+		font-size: 30px;
+	}
+/*fin partie droite*/
+/*début footer*/
+	.imgdown{
+		height: 40px
+	}
+	.footer{
+		width: 670px;
+	}
+	.pdown{
+		margin:0;
+		padding:0;
+		font-size: 10px;
+	}
+}
