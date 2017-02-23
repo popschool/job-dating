@@ -54,13 +54,14 @@ table {
 }
 
 .footer{
-  clear:both;
-  margin:2% 20%;
+  margin:2% 16%;
   display: block;
 }
-
+.lien_img{
+	 text-decoration: none;
+}
 .imgdown{
-  float:left;
+	padding:0px 5px;
 }
 
 .pdown{
@@ -69,6 +70,27 @@ table {
   font-family: Bond4F-UltraLight;
   font-weight: lighter;
   font-size:20px;
-  margin-top: 5px;
+  margin-top: 10px;
+
+}
+/* MEDIAQUERIES FOOTER *********************/
+@media screen and (max-width: 767px){
+  .footer{
+    margin:0px;
+  }
+  .imgdown{
+    left:0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+@media screen and (min-width: 1200px){
 
 }
