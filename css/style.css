@@ -159,7 +159,8 @@ body{
 #poleemploi
 {
   float: left;
-  padding-left: 382px;
+	margin-left: 203px;
+
 }
 #popschool
 {
@@ -225,5 +226,38 @@ body{
    font-size:20px;
    margin-top: 10px;
 	 margin-right: 222px;
+
+ }
+
+ footer{
+	 background-color: #353535;
+	 color:white;
+	 text-align: center;
+	 padding:8px;
+	 text-decoration: none;
+	 width: 100%;
+ }
+
+ footer a {
+	 color:white;
+ }
+
+ /* MEDIAQUERIES FOOTER *********************/
+ @media screen and (max-width: 361px){
+   footer{
+		 width:100%;
+		 height: 10%;
+	 }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 991px){
+
+ }
+
+ @media screen and (min-width: 992px) and (max-width: 1199px){
+
+ }
+
+ @media screen and (min-width: 1200px){
 
  }
