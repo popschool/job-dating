@@ -50,7 +50,7 @@ table {
 /* FOOTER *****************************************/
 @font-face {
   font-family: Bond4F-UltraLight;
-  src: url("font/bond4f/OTF/Bond4F-UltraLight.otf");
+  src: url("../font/bond4f/OTF/Bond4F-UltraLight.otf");
 }
 
 .footer{
