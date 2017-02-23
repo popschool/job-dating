@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* julian*/
+@font-face {
+  font-family: Bond4F;
+  src: url("../font/bond4f/OTF/Bond4F.otf");
+}
+body{
+  margin-left: 70px;
+  margin-right: 70px
+}
+.font{
+  font-family: Bond4F;
+}
+.bannblue{
+  background-color: #234e8b;
+	padding: 30px 50px;
+}
+.intbann{
+  color: white;
+  font-size: 50px;
+  margin-left: 40px
+}
+#phrase1{
+  text-align: right;
+	line-height: 0.9em;
+}
+#phrase2{
+	text-align: right;
+}
+.droite{
+  margin-top: 20px;
+}
+.gauche{
+  margin-left: 200px
+}
+.inscription{
+  color:#234e8b;
+  float: right;
+  border-top: 7px solid #6cbe45;
+  border-left: 7px solid #6cbe45;
+  font-size: 40px;
+  height: 415px;
+  width:46%
+}
+.images{
+	float: right;
+}
+.img1{
+	padding-top: 5px
+}
+.img2{
+	padding-top: 20px
+}
+.link{
+  margin-bottom: 10px;
+  font-size: 35px;
+  width: 43.2%;
+  text-align: right;
+}
+.text{
+  width: 75%;
+  text-align: right;
+}
+.linkinscri{
+  width:75%;
+  text-align: right;
+}
+.linkblue{
+  color:#234e8b
+}
+.textblue{
+  padding-top: 30px;
+  color:#234e8b
+}
+.linkgreen{
+  text-decoration: none;
+  color:#6cbe45
+}
+.phraselink1{
+	line-height: 0.9em;
+}
+.candid{
+	padding-top: 10px
+}
+.phraselink2{
+	line-height: 0.9em;
+}
+.address{
+  padding: 20px;
+  font-size: 30px;
+  text-align: right;
+  border: 7px solid #234e8b;
+  width: 40%;
+  height: 220px
+}
+.contact{
+  margin-top: 10px
+}
+.bold{
+  font-weight: bold;
+}
+/*julian*/
