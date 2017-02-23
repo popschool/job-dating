@@ -42,10 +42,7 @@ table {
 	border-spacing: 0;
 }
 /* julian*/
-@font-face {
-  font-family: Bond4F;
-  src: url("../font/bond4f/OTF/Bond4F.otf");
-}
+
 body{
   margin-left: 70px;
   margin-right: 70px
