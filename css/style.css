@@ -41,6 +41,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*-------------@font-face---------------*/
+@font-face {
+  font-family: Bond4F;
+  src: url("../font/bond4f/OTF/Bond4F.otf");
+}
+@font-face {
+	font-family: Bond4F-UltraLight;
+	src: url("../font/bond4f/OTF/Bond4F-UltraLight.otf");
+}
+
+
 /* julian*/
 
 body{
@@ -138,12 +150,7 @@ body{
 .bold{
   font-weight: bold;
 }
-/*julian*/
-/*-------------@font-face---------------*/
-@font-face {
-  font-family: Bond4F;
-  src: url("../font/bond4f/OTF/Bond4F.otf");
-}
+/* fin julian*/
 
 /*---------------------------header---------------------*/
 .allimg {
@@ -192,4 +199,31 @@ body{
   padding-right: 120px;
   padding-left: 120px;
   text-align: right;
+ }
+
+
+ /* FOOTER *****************************************/
+
+ .footer{
+   margin:2% ;
+   display: block;
+
+ }
+ .lien_img{
+ 	 text-decoration: none;
+ }
+ .imgdown{
+ 	padding:0px 5px;
+	margin-left: 16px;
+ }
+
+ .pdown{
+   float: right;
+   text-align: left;
+   font-family: Bond4F-UltraLight;
+   font-weight: lighter;
+   font-size:20px;
+   margin-top: 10px;
+	 margin-right: 222px;
+
  }
